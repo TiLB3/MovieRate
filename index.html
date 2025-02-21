@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="source/style/mainStyle.css">
+
+  <script src="source/js/mainStyle.js" defer></script>
+  <script src="source/js/autocomplete.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <div class="header-content">
+        <div class="header__nav">
+          <div class="header__drop">
+
+            <ul class="header__list">
+              <li class="header__list-item"><a class="header__link-item" href="#">Главная</a></li>
+              <li class="header__list-item"><a class="header__link-item" href="#">Понравившиеся</a></li>
+              <li class="header__list-item"><a class="header__link-item" href="#">Непонравившиеся</a></li>
+              <li class="header__list-item"><a class="header__link-item" href="#">Список фильмов к просмотру</a></li>
+            </ul>
+            <button class="header__btn-burger" id="mobile-menu-btn">
+              <div class="btn__hamb btn__hamb--blue">
+                <div></div>
+              </div>
+            </button>
+          </div>
+          <form class="header__form">
+            <div class="row">
+              <input type="text" name="text" id="header__search" placeholder="Search here!" autocomplete="off">
+            </div>
+            <div class="header__result-box">
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="list-panel">
+        <div class="list-panel__image"></div>
+        <div class="list-panel__brief-info"></div>
+        <div class="list-panel__buttons">
+          <button class="list-panel__button">Watched</button>
+          <button class="list-panel__button">Added to Watchlist</button>
+          <button class="list-panel__button">Like</button>
+          <button class="list-panel__button">Dislike</button>
+        </div>
+      </div>
+      <div class="movies">
+
+      </div>
+      <div class="watch-list">
+        <h2 class="watch-list__title">Watch-list</h2>
+      </div>
+    </div>
+    <div class="modal">
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-content__inner">
+          <div class="footer-content__row">
+            <div class="footer-content__column-f">
+              <div class="footer-content__list">
+                <h2 class="footer-content__title">О нас</h2>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">О компании</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Вакансии</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Программа
+                    бета-тестирования</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Информация для
+                    партнёров</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Размещение рекламы</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Пользовательское
+                    соглашение</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Политика
+                    конфиденциальности</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">На Тиви применяются
+                    рекомендательные технологии</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Комплаенс</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Оставить отзыв</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-content__column-s">
+              <div class="footer-content__list">
+
+                <h2 class="footer-content__title">Разделы</h2>
+
+                <div class="footer-content__item"><a href="#" class="footer-content__link"> Мой фильми</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Что нового</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Фильмы</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Сериалы</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Мультфильмы</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Что посмотреть</a>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Активация сертификата</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-content__column-t">
+              <div class="footer-content__list">
+
+                <h2 class="footer-content__title">
+                  Служба поддержки
+
+
+                  ask.tima.ru
+                  Ответы на вопросы
+
+                </h2>
+                <div class="footer-content__item"><a href="#" class="footer-content__link">Мы всегда готовы вам помочь.
+                    Наши операторы онлайн 24/7</a>
+                </div>
+                <div class="footer-content__item"><button class="footer-content__btn"> Написать в чате</button>
+                </div>
+                <div class="footer-content__item"><a href="#" class="footer-content__link ">
+                    <p class="footer-content__link--white">ask.tima.ru</p>
+                    <br>Ответы на вопросы<br>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+</body>
+
+</html>
