@@ -183,10 +183,13 @@ body {
 	border-bottom: 1px solid #33333384;
 }
 
-
-
-.header__key-word {
+.header__result-box {
 	overflow: scroll;
+	width: 100%;
+	height: 300px;
+}
+.header__key-word {
+	
 	color: rgba(37, 13, 111, 0.736);
 	list-style: none;
 	text-decoration: none;
