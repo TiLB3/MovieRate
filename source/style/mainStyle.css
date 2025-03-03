@@ -186,6 +186,7 @@ body {
 
 
 .header__key-word {
+	overflow: scroll;
 	color: rgba(37, 13, 111, 0.736);
 	list-style: none;
 	text-decoration: none;
